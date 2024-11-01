@@ -9,10 +9,14 @@ openssh
 pv
 qemu-guest-agent
 syslinux
-virtualbox-guest-utils-nox
-
+virtualbox-guest-utils
 networkmanager
 network-manager-applet
 xorg-server
 xorg-xinit
 xfce4
+fcitx5-im
+fcitx5-mozc
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji

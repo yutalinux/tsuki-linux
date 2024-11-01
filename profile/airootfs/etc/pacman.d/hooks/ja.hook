@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = *
+
+[Action]
+Description = ja
+When = PostTransaction
+Exec = /usr/bin/ja.sh

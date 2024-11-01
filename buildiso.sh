@@ -1,1 +1,1 @@
-sudo mkarchiso -v profile
+sudo mkarchiso -v -r profile
