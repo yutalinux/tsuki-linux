@@ -9,5 +9,3 @@ chmod 755 /home/live
 
 systemctl enable NetworkManager
 
-plymouth-set-default-theme spinner
-update-initramfs -u
