@@ -2,9 +2,10 @@
 
 MAKEFLAGS="-j$(nproc)"
 
-sudo mount -t tmpfs -o size=8G tmpfs /mnt/ramdisk
+# sudo mount -t tmpfs -o size=8G tmpfs /mnt/ramdisk
 
-sudo mkarchiso -v -w /mnt/ramdisk profile
+# sudo mkarchiso -v -w /mnt/ramdisk profile
+sudo mkarchiso -v profile
 
-sudo umount /mnt/ramdisk
+# sudo umount /mnt/ramdisk
 sudo rm -rf work
