@@ -1,1 +1,1 @@
-sudo pacman -S archiso
+sudo pacman -S --needed archiso grub syslinux efibootmgr
