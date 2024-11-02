@@ -1,1 +1,3 @@
+source ./.xprofile
+
 startxfce4

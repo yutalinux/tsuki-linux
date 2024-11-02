@@ -8,4 +8,4 @@ chown -R live:live /home/live
 chmod 755 /home/live
 
 systemctl enable NetworkManager
-
+reflector --save /etc/pacman.d/mirrorlist --country Japan --protocol https --latest 5

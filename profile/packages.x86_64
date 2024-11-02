@@ -17,3 +17,4 @@ jq
 memtest86+
 memtest86+-efi
 edk2-shell
+reflector
