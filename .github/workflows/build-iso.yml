@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Install Dependencies
         run: |
-          pacman -Syyu --needed archiso grub syslinux efibootmgr
+          pacman -Syyu --noconfirm --needed archiso grub syslinux efibootmgr
       - name: Build ISO
         run: |
           mkarchiso -v profile
