@@ -1,4 +1,3 @@
-base
 linux
 mkinitcpio
 mkinitcpio-archiso
@@ -7,7 +6,6 @@ virtualbox-guest-utils
 networkmanager
 network-manager-applet
 xorg-server
-xfce4
 fcitx5-im
 fcitx5-mozc
 noto-fonts

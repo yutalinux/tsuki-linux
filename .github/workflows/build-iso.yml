@@ -1,0 +1,25 @@
+name: Build ISO File
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  buildiso:
+    runs-on: ubuntu-latest
+    container:
+      image: archlinux:base
+      options: --privileged
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Dependencies
+        run: |
+          pacman -S --needed archiso grub syslinux efibootmgr
+      - name: Build ISO
+        run: |
+          mkarchiso -v profile
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: out/*.iso
