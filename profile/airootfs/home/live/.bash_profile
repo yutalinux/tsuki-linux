@@ -1,3 +1,0 @@
-source ./.xprofile
-
-startxfce4
