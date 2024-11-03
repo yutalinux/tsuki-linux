@@ -4,4 +4,4 @@ Linux ディストリビューションですが、完成していないので�
 
 ## 関連リポジトリ
 
-- [Tsuki Packages](https://github.com/yutalinux/tsuki-packags)
+- [Tsuki Packages](https://github.com/yutalinux/tsuki-packages)
