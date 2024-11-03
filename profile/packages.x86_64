@@ -1,4 +1,5 @@
 base
+arch-install-scripts
 linux
 mkinitcpio
 mkinitcpio-archiso
@@ -18,3 +19,7 @@ memtest86+
 memtest86+-efi
 edk2-shell
 reflector
+gptfdisk
+dosfstools
+e2fsprogs
+parted

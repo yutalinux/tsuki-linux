@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=TsukiLinux のインストール
+Comment=
+Exec=/usr/bin/install-tsuki-linux
+# Icon=/
+Categories=Application;
+Terminal=true

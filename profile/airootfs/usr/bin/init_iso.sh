@@ -1,5 +1,14 @@
 #!/bin/bash
 
+if [ "$CHROOT" = "true" ]; then
+  exit
+fi
+
+pacman -Syy
+
+pacman-key --init
+pacman-key --populate archlinux
+
 echo "ja_JP.UTF-8 UTF-8" >> /etc/locale.gen
 locale-gen
 
